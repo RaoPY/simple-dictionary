@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: #6366f1;
+}
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: white;
+    box-shadow: 8px 12px 5px #5046e5;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.themeDots {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.themeDots:hover {
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+
+#themeDot1 {
+    background: #6366f1;
+}
+
+#themeDot2 {
+    background: #f49e0b;
+}
+
+#themeDot3 {
+    background: #48bb78;
+}
+
+#themeDot4 {
+    background: linear-gradient(135deg, #B06AB3, #4568DC);
+}
+
+#themeDot5 {
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
+
+#themeDot6 {
+    background: linear-gradient(135deg, #38ef7d, #11998e);
+}
+
+.heading {
+    color: #2e3442;
+    margin-top: 10px;
+}
+
+#wordInput {
+    background: #f9f9fa;
+    color: #6f767e;
+    border: #d8d8d8 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90%;
+    padding: 12px;
+    margin-top: 40px;
+}
+
+#wordInput:focus {
+    outline: none;
+}
+
+#btn {
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#btn:hover {
+    background: #5046e5;
+    cursor: pointer;
+}
+
+.line {
+    opacity: 0.5;
+    width: 90%;
+    margin: auto;
+}
+
+#wordMeaning {
+    color: #6f767e;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
